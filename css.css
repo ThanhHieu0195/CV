@@ -1,0 +1,153 @@
+body {
+    --main-bg-color-header: #31c4e8;
+    --main-bg-color: #343435;
+    --main-bg-color-detail: #525354;
+    --main-bg-color-profile: #414142;
+    --main-color:white;
+    background-image: url(https://ak3.picdn.net/shutterstock/videos/5001257/thumb/4.jpg);
+    background-size: cover;
+}
+.container {
+    color: var(--main-color);
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px auto;
+}
+.header {
+    background-color: var(--main-bg-color-header);
+    padding-bottom: 17px;
+    padding-right: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.infomation {
+    background-color: var(--main-bg-color) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.profile {
+    background-color: var(--main-bg-color-profile);
+    padding-bottom: 150px;
+    border-bottom-right-radius: 10px;
+}
+.avt {
+    border: 2px solid white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.session {
+    padding: 10px 20px;
+}
+
+.profile .session:first-child {
+    background-color: #525354;
+    transform: scale(1.02);
+    padding-top: 30px;
+}
+.session .basic-profile li {
+    margin-bottom: 20px;
+}
+.session .basic-profile li h4{
+    display: inline-block;
+}
+.session .basic-profile li .fa {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: darkturquoise;
+    display: inline-block;
+    margin-right: 15px;
+}
+p.des {
+    display: inline-block;
+    width: 70%;
+}
+
+h3.title-line, h3.title {
+    color:var(--main-bg-color-header);
+    text-transform: uppercase;
+    overflow: hidden;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+h3.title-line:after{
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: baseline;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid #ffffff;
+}
+.item-skill .progress-bar {
+    background-color: var(--main-bg-color-header);
+}
+
+.session .content {
+    padding-left: 25px;
+}
+
+.text-3d {
+    text-shadow: 2px 2px 2px #673AB7;
+}
+
+.basic-profile {
+    list-style: none;
+    padding-left: 25px;
+}
+.basic-profile li {
+    display: block;
+}
+
+.detail .fa {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: darkturquoise;
+    margin-right: 15px;
+    color:white;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    margin: 25px 5px;
+    vertical-align: baseline;
+    border-bottom-style: dashed;
+}
+
+.quote {
+    padding: 30px 124px;
+}
+
+p.quote:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+p.quote:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+}
+
+.author:before {
+    content: '';
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    left: -30%;
+    top: 50%;
+    width: 10px;
+    z-index: 1;
+}
+
+.author {
+    position: relative;
+    left: 82%;
+}
