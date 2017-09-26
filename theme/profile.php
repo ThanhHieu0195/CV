@@ -32,7 +32,7 @@
                 </div>
                 <!--            item-->
                 <div class="item-skill">
-                    <h4>Angular JS/ Jquery/ Bootstrap</h4>
+                    <h4>Jquery/ Bootstrap/ Angular JS</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
                              aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -40,38 +40,8 @@
                         </div>
                     </div>
                 </div>
-                <!--            item-->
                 <div class="item-skill">
-                    <h4>NodeJs (Express)</h4>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            <span class="sr-only">70% Complete</span>
-                        </div>
-                    </div>
-                </div>
-                <!--            item-->
-                <div class="item-skill">
-                    <h4>Java (Struts, Hibernate, Integration)</h4>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            <span class="sr-only">70% Complete</span>
-                        </div>
-                    </div>
-                </div>
-                <!--            item-->
-                <div class="item-skill">
-                    <h4>C#/C++/C</h4>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="50"
-                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                            <span class="sr-only">50% Complete</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-skill">
-                    <h4>SQL/MYSQL/PostgreSql</h4>
+                    <h4>MYSQL/ SQL/ PostgreSql</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="80"
                              aria-valuemin="0" aria-valuemax="100" style="width:80%">
@@ -79,13 +49,33 @@
                         </div>
                     </div>
                 </div>
-                <!--            item-->
+                 <!--            item-->
                 <div class="item-skill">
                     <h4>Python (Django)</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="40"
-                             aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                             aria-valuemin="0" aria-valuemax="100" style="width:55%">
                             <span class="sr-only">40% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <!--            item-->
+                <div class="item-skill">
+                    <h4>NodeJs (Express), Java (Struts - Hibernate - Integration)</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            <span class="sr-only">70% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <!--            item-->
+                <div class="item-skill">
+                    <h4>C#/ C++/ C</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50"
+                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            <span class="sr-only">50% Complete</span>
                         </div>
                     </div>
                 </div>
@@ -101,7 +91,7 @@
                 </div>
 
                 <div class="item-skill">
-                    <h4>Tools (Git, SVN, Xampp, ...)</h4>
+                    <h4>Tools(Git, SVN, Xampp, Ubuntu, ...)</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="95"
                              aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -109,6 +99,17 @@
                         </div>
                     </div>
                 </div>
+
+                 <div class="item-skill">
+                    <h4>Environment(Ubuntu, Windows, ...)</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <span class="sr-only">95% Complete</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="session">

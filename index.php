@@ -4,11 +4,11 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="libs/fontawesome/font-awesome.css">
+    <link rel="stylesheet" href="libs/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="css.css">
-    <script src="libs/bootstrap/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -20,13 +20,15 @@
        </div>
        <div class="row infomation">
 <!--           --><?php //include 'theme/detail.php'?>
-           <?php include 'theme/detail_tv.php'?>
+           <?php include 'theme/detail.php'?>
 <!--           --><?php //include 'theme/profile.php' ?>
-           <?php include 'theme/profile_tv.php' ?>
+           <?php include 'theme/profile.php' ?>
        </div>
    </div>
 </div>
 
 </body>
 <script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap/bootstrap.min.js"></script>
+
 </html>
