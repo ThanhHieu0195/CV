@@ -51,13 +51,13 @@
         <div class="line"></div>
         <div class="row">
             <div class="col-md-6">
-                <h4><strong>The Management System</strong></h4>
+                <h4><strong>Microsite + The Management System</strong></h4>
                 <h4>Freelance</h4>
                 <h4><strong>Job description: </strong><br><br>Develop functionality for the system according to customer requirements</h4>
                 <h4><strong>Language: </strong>PHP</h4>
             </div>
             <div class="col-md-6">
-                <div class="text-right"><strong>07/2016 - 02/2017</strong></div>
+                <div class="text-right"><strong>07/2016 - Now</strong></div>
             </div>
         </div>
         <div class="line"></div>
@@ -66,12 +66,12 @@
                 <h4><strong>Solazu</strong></h4>
                 <h4>staff</h4>
                 <h4><strong>Job description: </strong></h4>
-                    <br><br>1. Build product on framework wordpress.
-                    <br><br>2. Outsourcing.
-                <h4><strong>Language: </strong>PHP (wordpress, Yii, ...)</h4>
+                    <br><br>1. Build product on framework wordpress. (PHP)
+                    <br><br>2. Outsourcing. (PHP + Yii)
+                    <br><br>3. BlockChain (NodeJs + ReactJs).
             </div>
             <div class="col-md-6">
-                <div class="text-right"><strong>11/2016 - 9/2017</strong></div>
+                <div class="text-right"><strong>11/2016 - Now</strong></div>
             </div>
         </div>
     </div>

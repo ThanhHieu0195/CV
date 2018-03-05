@@ -32,7 +32,7 @@
                 </div>
                 <!--            item-->
                 <div class="item-skill">
-                    <h4>Jquery/ Bootstrap/ Angular JS</h4>
+                    <h4>Jquery/ Bootstrap/ Angular / React JS</h4>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
                              aria-valuemin="0" aria-valuemax="100" style="width:90%">
