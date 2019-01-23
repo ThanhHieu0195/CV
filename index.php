@@ -4,6 +4,7 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -19,14 +20,19 @@
        </div>
        <div class="row infomation">
 <!--           --><?php //include 'theme/detail.php'?>
-           <?php include 'theme/detail_tv.php'?>
+           <?php include 'theme/detail.php'?>
 <!--           --><?php //include 'theme/profile.php' ?>
-           <?php include 'theme/profile_tv.php' ?>
+           <?php include 'theme/profile.php' ?>
        </div>
    </div>
 </div>
 
 </body>
 <script src="libs/jquery/jquery.min.js"></script>
+<<<<<<< HEAD
     <script src="libs/bootstrap/bootstrap.min.js"></script> 
+=======
+<script src="libs/bootstrap/bootstrap.min.js"></script>
+
+>>>>>>> 8b40606ba9c83eff0311782c955cfbffc75900b0
 </html>
