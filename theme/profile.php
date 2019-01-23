@@ -1,5 +1,5 @@
 <div class="col-md-4 profile">
-    <img class="avt" src="images/avt.jpg" alt="">
+    <img class="avt" src="http://graph.facebook.com/100003803082906/picture?type=large" alt="">
     <div class="row">
         <div class="session">
             <ul class="basic-profile">

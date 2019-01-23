@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="libs/fontawesome/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css.css">
-    <script src="libs/bootstrap/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -29,4 +28,5 @@
 
 </body>
 <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script> 
 </html>
