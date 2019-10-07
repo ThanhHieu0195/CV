@@ -6,6 +6,7 @@ body {
     --main-color:white;
     background-image: url(https://ak3.picdn.net/shutterstock/videos/5001257/thumb/4.jpg);
     background-size: cover;
+    line-height: 30px !important;
 }
 .container {
     color: var(--main-color);

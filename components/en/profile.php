@@ -13,7 +13,7 @@
                 </li>
                 <li style="position: relative">
                     <i class="fa fa-location-arrow" aria-hidden="true" style="top: 6px;position: absolute;"></i>
-                    <h4 style="padding-left: 60px;">606/49/11, 3/2 Street, Ward 14, District 10, Ho Chi Minh City. Ho Chi Minh</h4>
+                    <h4 style="padding-left: 60px; line-height: 20px">606/49/11, 3/2 Street, Ward 14, District 10, Ho Chi Minh City. Ho Chi Minh</h4>
                 </li>
             </ul>
         </div>
