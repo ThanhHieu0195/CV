@@ -52,6 +52,7 @@
                 <li><h4>Listen Music</h4></li>
                 <li><h4>Listen To Share Experience</h4></li>
                 <li><h4>Watch Anime</h4></li>
+                <li><h4>Like travel</h4></li>
             </ul>
         </div>
     </div>
