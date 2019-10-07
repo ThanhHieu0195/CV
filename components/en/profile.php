@@ -5,10 +5,10 @@
             <ul class="basic-profile">
                 <li>
                     <i class="fa fa-phone" aria-hidden="true"></i>
-                    <h4>097.333.4905</h4>
+                    <h4>0929.220.247</h4>
                 </li>
                 <li>
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
                     <h4>thanhhieu0195@gmail.com</h4>
                 </li>
                 <li style="position: relative">
@@ -20,37 +20,28 @@
          <div class="session">
             <h3 class="title-line">Skills</h3>
             <ul>
-               <!--            item-->
                 <li class="item-skill">
-                    <h4>Wordpress, Yii, Lavarel</h4>
-                </li>
-                <!--            item-->
-                <li class="item-skill">
-                    <h4>Jquery, Angular, React JS</h4>
+                    <h4>Wordpress, Yii, Laravel (PHP)</h4>
                 </li>
                 <li class="item-skill">
-                    <h4>MYSQL, SQL, PostgreSql, Firebase</h4>
+                    <h4>FeathersJs, ExpressJs (nodejs)</h4>
                 </li>
-                 <!--            item-->
                 <li class="item-skill">
-                    <h4>Ruby</h4>
+                    <h4>Django (Python)</h4>
                 </li>
-                <!--            item-->
                 <li class="item-skill">
-                    <h4>NodeJs, Java</h4>
+                    <h4>NextJs, ReactJS</h4>
                 </li>
-                <!--            item-->
                 <li class="item-skill">
-                    <h4>Git, SVN, Lampp, Ubuntu, ...</h4>
+                    <h4>MySql, Mongodb, PostgreSql, Firebase</h4>
+                </li>
+                <li class="item-skill">
+                    <h4>Redis, ElasticSearch</h4>
+                </li>
+                <li class="item-skill">
+                    <h4>Git, SVN, Apache2, Nginx, Ubuntu, <br>Docker</h4>
                 </li>
 
-                 <li class="item-skill">
-                    <h4>Environment(Ubuntu, Windows, ...)</h4>
-                </li>
-
-                 <li class="item-skill">
-                    <h4>Redis, ElasticSearch, sidekiq</h4>
-                </li>
             </ul>
         </div>
         <div class="session">
@@ -65,3 +56,9 @@
         </div>
     </div>
 </div>
+
+<style>
+    .item-skill {
+        margin-bottom: 15px;
+    }
+</style>

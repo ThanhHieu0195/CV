@@ -120,6 +120,7 @@ h3.title-line:after{
     margin: 25px 5px;
     vertical-align: baseline;
     border-bottom-style: dashed;
+    height: 5px;
 }
 
 .quote {
