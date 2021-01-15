@@ -35,6 +35,8 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                     - FeathersJs, ReactJs/AngularJs, Postgres, Mongodb, Redis, Socket<br>
                     - AWS, DO <br>
                     - Bunny, CloudFront, CloudFlare <br>
+                    <h4><b>Company</b></h4>
+                    ESPXMedia 
                     <h4><b>Position:</b> </h4>
                     Technical Lead
 
@@ -51,7 +53,7 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                    - Special features: ticketcode, passcode, ... <br>
                    - Analytics (browsers, Location, OS, Viewership, ...)<br>
                     (<a href="">https://www.espxmedia.com/</a>)
-                    <h4><b>Parners:</b></h4>
+                    <h4><b>Partners:</b></h4>
                     MplayAsia, National Library Board, gradian, National Gallary Singapore, ...
 
                 </div>
@@ -69,13 +71,15 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                     <h4><b>Platform</b></h4>
                     - Wordpress, Express, Mariadb <br>
                     - WPVIP, AWS <br>
+                    <h4><b>Company</b></h4>
+                    Techvsi  
                     <h4><b>Position:</b> </h4>
                     Technical Lead
 
                     <h4><b>Job description:</b></h4>
                     - Project progress management <br>
                     - Provide a solution to resolve problems for client<br>
-                    <h4><b>Parners:</b> </h4>Grab, Facebook, OCBC, ...
+                    <h4><b>Partners:</b> </h4>Grab, Facebook, OCBC, ...
                     <h4><b>Products:</b></h4>
                     wethinkdigital, facebookcrossborder, ... <br>
                     <a href="https://techvsi.com/">https://techvsi.com/</a>
@@ -92,6 +96,8 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 <div class="wrap-block">
                     <h4><b>Platform</b></h4>
                     Python, Socket, Redis, Mongodb, Selenium, Queue
+                    <h4><b>Company</b></h4>
+                    Viralworks
                     <h4><b>Job description: </b></h4>
                     - Collect post information every day from social networks (facebook, instagram, youtube)<br>
                     - Crawl user's information <br>
@@ -99,7 +105,7 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="text-right"><strong>2019</strong></div>
+                <div class="text-right"><strong>In 2019</strong></div>
             </div>
         </div>
         <div class="line"></div>
@@ -109,6 +115,8 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 <h4 class="item-title">Platform KOL</h4>
                 <div class="wrap-block">
                     <h4><b>Platform</b></h4>
+                    <h4><b>Company</b></h4>
+                    Viralworks
                     Nodejs, Laravel, Mongodb, Redis
                     <h4><b>Job description: </b></h4>
                     - The platform supports connecting KOL and Brand together<br>
@@ -118,7 +126,7 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="text-right"><strong>2018</strong></div>
+                <div class="text-right"><strong>In 2018</strong></div>
             </div>
         </div>
         <div class="line"></div>
@@ -130,7 +138,8 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 <div class="wrap-block">
                     <h4><b>Platform</b></h4>
                     Ruby, Redis, Firebase, ReactJS, ElasticSearch, Sidekiq, MySql
-
+                    <h4><b>Company</b></h4>
+                    Solazu
                     <h4><b>Job description: </b></h4>
                     - 3rd hotel search system of Japan<br>
                     - Crawl data from 32 OTA service when search<br>
@@ -140,7 +149,7 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="text-right"><strong>2018</strong></div>
+                <div class="text-right"><strong>In 2018</strong></div>
             </div>
         </div>
         <div class="line"></div>
@@ -151,7 +160,8 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                  <div class="wrap-block">
                      <h4><b>Platform</b></h4>
                      CMS Wordpress
-
+                     <h4><b>Company</b></h4>
+                    Solazu
                      <h4><b>Job description:</b></h4>
                      - Building themes, plugins, Shortcodes, ...<br>
                      - Major topics: education, music, hearty, events, ... <br>
@@ -170,6 +180,8 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                 <div class="wrap-block">
                     <h4><b>Platform</b></h4>
                     Wordpress, Laravel, Yii, Firebase
+                    <h4><b>Company</b></h4>
+                    Freelance
                     <h4><b>Job description:</b></h4>
                     - Building management system for Nhi Long, Extrim, Hoang Anh, Sabaidee, Techvsi, Nhat Quang, Nhan Hoa, ...
                 </div>
