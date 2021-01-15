@@ -50,7 +50,7 @@ Also, I went through many position (frontend, backend, devops) so an overview of
                    - Actionable with viewers (live chat, q&a, survey, dialog, ...)<br>
                    - Special features: ticketcode, passcode, ... <br>
                    - Analytics (browsers, Location, OS, Viewership, ...)<br>
-                    (<a href="">https://www.espxmedia.com/</a>)
+                    (<a href="https://www.espxmedia.com">https://www.espxmedia.com/</a>)
                     <h4><b>Partners:</b></h4>
                     MplayAsia, National Library Board, gradian, National Gallary Singapore, ...
 
