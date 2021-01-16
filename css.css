@@ -1,45 +1,53 @@
+
 body {
-    --main-bg-color-header: #31c4e8;
-    --main-bg-color: #343435;
-    --main-bg-color-detail: #525354;
-    --main-bg-color-profile: #414142;
-    --main-color:white;
     background-image: url(https://ak3.picdn.net/shutterstock/videos/5001257/thumb/4.jpg);
     background-size: cover;
     line-height: 40px !important;
 }
 .container {
-    color: var(--main-color);
+    color: white;
     font-family: 'Quicksand', sans-serif;
     margin: 20px auto;
 }
 .header {
-    background-color: var(--main-bg-color-header);
+    background-color: #91C190;
     padding-bottom: 17px;
     padding-right: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .infomation {
-    background-color: var(--main-bg-color) ;
+    background-color: #343435 ;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 .profile {
-    background-color: var(--main-bg-color-profile);
+    background-color: #414142;
     padding-bottom: 150px;
     border-bottom-right-radius: 10px;
 }
-.avt {
+.block-avt {
+     display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 30px 0;
     border: 2px solid white;
     margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.avt {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+            transform: scale(1.7);
 }
 
 .session {
@@ -48,7 +56,9 @@ body {
 
 .profile .session:first-child {
     background-color: #525354;
-    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
     padding-top: 30px;
 }
 .session .basic-profile li {
@@ -61,7 +71,7 @@ body {
     border-radius: 50%;
     border: 2px solid white;
     padding: 15px;
-    background-color: darkturquoise;
+    background-color: #91C190;
     display: inline-block;
     margin-right: 15px;
 }
@@ -71,7 +81,7 @@ p.des {
 }
 
 h3.title-line, h3.title {
-    color:var(--main-bg-color-header);
+    color:#91C190;
     text-transform: uppercase;
     overflow: hidden;
     font-weight: bold;
@@ -88,7 +98,7 @@ h3.title-line:after{
     border-top: 2px solid #ffffff;
 }
 .item-skill .progress-bar {
-    background-color: var(--main-bg-color-header);
+    background-color: #91C190;
 }
 
 .session .content {
@@ -111,7 +121,7 @@ h3.title-line:after{
     border-radius: 50%;
     border: 2px solid white;
     padding: 10px 8px;
-    background-color: darkturquoise;
+    background-color: #91C190;
     margin-right: 15px;
     color:white;
 }
@@ -146,4 +156,8 @@ h3.title-line:after{
 
 #main-list li {
     margin-bottom: 15px;
+}
+
+.line-height-25 {
+    line-height: 25px
 }
