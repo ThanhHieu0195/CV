@@ -1,6 +1,3 @@
-<?php 
-require('data.php');
-?>
 <div class="col-md-8 detail">
     <div class="session">
         <h3 class="title">Objective</h3>

@@ -25,8 +25,8 @@ require('data.php');
            <h4 class="text-right text-3d"><?= $data['basic_info']['position'] ?></h4>
        </div>
        <div class="row infomation">
-           <?php get_component('detail'); ?>
-           <?php get_component('profile') ?>
+           <?php get_component('detail', $data); ?>
+           <?php get_component('profile', $data) ?>
        </div>
    </div>
 </div>

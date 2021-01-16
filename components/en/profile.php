@@ -1,6 +1,3 @@
-<?php 
-require('data.php');
-?>
 <div class="col-md-4 profile">
     <div class="block-avt">
         <img class="avt" src="<?= $data['basic_info']['profile_url'] ?>" alt="">

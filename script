@@ -5,3 +5,6 @@ curl -f -u "Mkkarrot:19b34819fcda1395ba7b5aece5b15733" \
     -F "no_margins=True" \
     -F "url=http://157.230.32.185/qwertyCV/" \
     https://api.pdfcrowd.com/convert/
+
+ 157.230.32.185
+ sudo apt install composer
