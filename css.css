@@ -161,3 +161,39 @@ h3.title-line:after{
 .line-height-25 {
     line-height: 25px
 }
+
+@media print { * { color: $fff; background: transparent; }}
+
+.text-center {
+       position: fixed;
+    right: 50%;
+    z-index: 10000000000000000000000000000;
+    transform: translateX(50%);
+    background: #adadad99;
+    padding: 10px 20px;
+}
+
+.c-btn {
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.js-save {
+    background: #006dce;
+    box-shadow: 2px 2px 2px #006dce;
+    margin-right: 5px;
+}
+
+.js-cancel {
+    background: #dcc403;
+    box-shadow: 2px 2px 2px #dcc403;
+}
+
+.js-editing {
+    color: black;
+    text-aligh: left;
+    width: 100%;
+    max-width: 500px;
+}

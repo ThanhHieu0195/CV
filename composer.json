@@ -1,2 +1,6 @@
 {
+    "require": {
+        "mongodb/mongodb": "^1.8",
+        "pdfcrowd/pdfcrowd": "^4.12"
+    }
 }

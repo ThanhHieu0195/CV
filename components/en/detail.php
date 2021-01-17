@@ -2,7 +2,9 @@
     <div class="session">
         <h3 class="title">Objective</h3>
         <h4 style="line-height: 30px">
-         <?= $data['objective'] ?>
+        <span class="js-edit" data-type="textarea" data-id="<?= uniqid() ?>" data-name="objective">
+            <?= $data['objective'] ?>
+        </span>
         </h4>
     </div>
 
@@ -12,7 +14,9 @@
             Summary
         </h3>
         <h4 style="line-height: 30px">
-         <?= $data['summary'] ?>
+        <span class="js-edit" data-type="textarea" data-id="<?= uniqid() ?>" data-name="summary">
+             <?= $data['summary'] ?>
+        </span>
         </h4>
     </div>
 
@@ -25,23 +29,39 @@
         <div class="row">
             <div class="col-md-9">
                 <h4 class="item-title">Grab Company Limited</h4>
-                <?php foreach ($data['works'] as $item): ?>
+                <?php 
+                    $works = $data['works'];
+                    $numItem = count($data['works']['position']);
+                    for($i=0; $i < $numItem; $i++):
+                    ?>
                 <div class="wrap-block">
                     <h4>
                         <div class="row">
                             <div class="col-md-8">
-                                <i style="border-bottom: 1px solid #91c190;"><?= $item['position'] ?></i>
+                                <i style="border-bottom: 1px solid #91c190;">
+                                      <span class="js-edit" data-id="<?= uniqid() ?>" data-name="works[position][]">
+                                        <?= $works['position'][$i] ?>
+                                    </span>          
+                                </i>
                             </div>
                             <div class="col-md-4">
-                                <div class="text-right" style="font-size: 12px"><strong><?= $item['time'] ?></strong></div>
+                                <div class="text-right" style="font-size: 12px"><strong>
+                                    <span class="js-edit" data-id="<?= uniqid() ?>" data-name="works[time][]">
+                                        <?= $works['time'][$i] ?>
+                                    </span>          
+                                    </strong>
+                                </div>
                             </div>
                         </div>
                     </h4>
-                    <?= $item['content'] ?>
+                    <span class="js-edit" data-type="textarea" data-id="<?= uniqid() ?>" data-name="works[content][]">
+                        <?= $works['content'][$i]     ?>
+                    </span>     
 
                 </div>
                 <br>
-                <?php endforeach;?>
+                <?php endfor;
+                ?>
             </div>
             <div class="col-md-3">
                 <div class="text-right"><strong>08/2017 - 2021</strong></div>

@@ -7,4 +7,15 @@ curl -f -u "Mkkarrot:19b34819fcda1395ba7b5aece5b15733" \
     https://api.pdfcrowd.com/convert/
 
  157.230.32.185
- sudo apt install composer
+
+sudo apt install php7.2-dev
+sudo apt install composer
+
+sudo pecl install mongodb
+sudo apt-get install php7.2-mongodb
+
+composer require mongodb/mongodb
+extension=mongodb.so
+composer require pdfcrowd/pdfcrowd
+
+{"basic_info":{"fullname":"Phạm Thị Hải Hiếu","position":"Customer Service","details":{"skills":["Good comunication skills - verbal, written, presentation","Good supervisory skills - coaching - mentoring - training","Good problem solving skills","Good organization and teamwork skills","Ability to work well under pressure and acceptable for overtime"],"interests":["Read News","Listen To Share Experience","Like travel","Jokes with animal"]}},"objective":"I'm looking for a position as a customer service manager/team lead/senior where I can optimize my problem-solving and organizational skills to contribute to increased customer satisfaction.","summary":"Since graduating, I have only worked at one company for nearly 4 years. I started as an customer  service professional.\n            Currently, my position is a senior customer specialist. My main skills are problem-solving and withstand work pressure. I think it's time for me to try a new environment. I hope that we will grow and have many wonderful experiences together.","works":{"position":["Customer Service Professional","Senior Customer Specialist - Voice","Senior Customer Specialist - Livechat"],"time":["08/2017 - 02/2019","02/2019 - 09/2020","09/2020 - 2021"],"content":["- Manage service enquiries and disputes arising from our customers. <br>\n            - Acquire and update knowledge on procedures related to relevant processes;\n            - Provide quality customer support (24/7) through Voice channel and respond appropriately in a timely manner.<br>\n            - Support other departments when the need arises. <br>\n            - Award: Best Agent Voice (6/2018) <br>","- Perform daily senior tasks: attendance, absence report, give solution for agents, support TM on management (perfomance, OKR, ...), report on daily-weekly-monthly ... <br>\n            - Work closely with TMs to handle technical problems, cases that customers need to private negotiate <br>\n            - Listen and refine the agent's recommendations and deploy in the meeting <br>\n            - Award: Outserve Hero (1/2019 and 8/2019) <br>\n                           Best Supporter (6/2019 and 8/2019)","Senior tasks do not seem to have changed too much. Besides, I need to focus on building Livechat system as well as helping agents get acquainted with this <br>"]},"phone":"0902.101.793","email":"phamhaihieu.vt@gmail.com","location":"Huynh Tan Phat Street, 7 District, Ho Chi Minh City"}

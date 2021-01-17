@@ -14,15 +14,17 @@ include './includes/helpers.php';
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-<?php 
-require('data.php');
-?>
-
 <div class="container">
    <div class="row" style="box-shadow: 21px 8px 13px #9a9a9a;">
        <div class="row header">
-           <h1 class="text-right"><strong class="text-3d"><?= $data['basic_info']['fullname'] ?></strong></h1>
-           <h4 class="text-right text-3d"><?= $data['basic_info']['position'] ?></h4>
+           <h1 class="text-right">
+            <strong>
+              <span class="text-3d js-edit" data-id="<?= uniqid() ?>" data-name="basic_info[fullname]"><?= !empty($data['basic_info']['fullname']) ? $data['basic_info']['fullname'] : ''  ?></span>
+            </strong>
+          </h1>
+           <h4 class="text-right text-3d">
+             <span class="js-edit" data-id="<?= uniqid() ?>" data-name="basic_info[position]"><?= $data['basic_info']['position'] ?></span>
+           </h4>
        </div>
        <div class="row infomation">
            <?php get_component('detail', $data); ?>
@@ -30,8 +32,10 @@ require('data.php');
        </div>
    </div>
 </div>
-
+<a id="downloadAnchorElem" href="" style="display: none"></a>
+<input type="hidden" value="<?= $_GET['user'] ?>" id="code"/>
 </body>
 <script src="Assets/jquery/jquery.min.js"></script>
 <script src="Assets/bootstrap/bootstrap.min.js"></script>
+<script src="./script.js"></script>
 </html>
