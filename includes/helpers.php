@@ -40,7 +40,10 @@ class MongoClient {
 		);
 	}
 }
-
+if (empty($_GET['user'])) {
+	echo json_encode(['Error' => 404]);
+	exit(200);
+}
 $userId = $_GET['user'];
 $client = new MongoClient();
 $user = $client->getUser($userId);
