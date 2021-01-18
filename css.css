@@ -164,37 +164,40 @@ h3.title-line:after{
 
 @media print { * { color: $fff; background: transparent; }}
 
-.text-fix-top {
+.text-fix-top.js-wrap-edit {
     position: fixed;
-    z-index: 10000000000000000000000000000;
-    transform: translateX(50%);
+    z-index: 1;
     background: #adadad99;
-    padding: 10px 20px;
-    bottom: 20px;
-    right: 50%;
+    padding: 5px;
+    top: 5px;
+    left: 5px;
+
+      width: auto;
+    font-size: 10px;
 }
 
-.text-fix-bottom {
+.text-fix-bottom.js-wrap-edit {
     position: fixed;
-    z-index: 10000000000000000000000000000;
-    transform: translateX(50%);
+    z-index: 1;
     background: #adadad99;
     padding: 10px 20px;
     left: 20px;
     bottom: 20px;
+    width: auto;
+    font-size: 10px;
 }
 
 .c-btn {
-    color: white;
+        color: white;
     font-weight: 700;
     border-radius: 3px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     cursor: pointer;
+    margin-right: 10px;
 }
 .js-save {
     background: #006dce;
     box-shadow: 2px 2px 2px #006dce;
-    margin-right: 5px;
 }
 
 .js-cancel {
@@ -204,9 +207,7 @@ h3.title-line:after{
 
 .js-editing {
     color: black;
-    text-aligh: left;
-    width: 100%;
-    max-width: 500px;
+    width: 85%;
 }
 
 .js-insert {
@@ -218,16 +219,12 @@ h3.title-line:after{
 }
 
 .js-remove-wrap {
-        cursor: pointer;
+    cursor: pointer;
     background: #929292;
-    padding: 3px 12px;
+    padding: 0px 12px;
     color: white;
-    border-radius: 50px;
-    margin-top: 30px;
-        position: absolute;
-    top: -30px;
-    right: -35px;
 }
 .js-wrap-edit {
-    position: relative;
+    width: 100%;
+    display: flex;
 }
