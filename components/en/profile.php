@@ -47,7 +47,7 @@
             <h3 class="title-line"><?= $key ?></h3>
             <ul>
                 <?php foreach($arr as $text): ?>
-                <li class="item-skill">
+                <li class="item-skill js-block-item">
                     <h4 class="line-height-25">
                          <span class="js-edit" data-id="<?= uniqid() ?>" data-name="basic_info[details][<?= $key ?>][]">
                             <?= $text ?>
@@ -55,6 +55,8 @@
                     </h4>
                 </li>
                 <?php endforeach; ?>
+
+                <a class="js-insert">Insert</a>
             </ul>
         </div>
     <?php endforeach; ?>

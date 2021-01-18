@@ -3,7 +3,7 @@
 	let backupData = {};
 
 	let divProcessing = false;
-	$('.js-edit').on("dblclick", function() {
+	$(document).on("dblclick", '.js-edit', function() {
 		enableEditMode();
 	});
 
@@ -15,7 +15,7 @@
 				let type = $(e).data('type');
 				let oid = $(e).data('id');
 				$(e).hide();
-				let ip = `<input class="js-editing" value="${v.trim()}" data-target="${oid}"/>`;
+				let ip = `<input class="js-editing" value="${v.trim()}" data-target="${oid}"/> <span class="js-remove-wrap"> x </span>`;
 				if (type === 'textarea') {
 					ip = `<textarea rows="5" class="js-editing" data-target="${oid}">${v.trim()}</textarea`;
 				}
@@ -24,21 +24,32 @@
 				</div>`).insertAfter(e);
 
 			});
-			$('body').prepend(`<div class="js-wrap-edit text-center">
+			$('body').prepend(`<div class="js-wrap-edit text-fix-top">
 				<a class="js-save c-btn">save</a> 
 				<a class="js-cancel c-btn">cancel</a>
-				<a target="_blank" href="${window.location.href}&action=pdf" class="c-btn">PDF Download</a>
 			</div>`);
+
+			$('body').append(`<div class="js-wrap-edit text-fix-bottom">
+				<a target="_blank" href="${window.location.href}&action=pdf" class="c-btn">PDF Download</a>
+				<a class="c-btn js-download-json">JSON Download</a>
+			</div>`);
+			$('.js-insert').show();
 			backupData = generateData(false);
 			divProcessing = true;
 		}
 	}
 
+	$(document).on('click', '.js-remove-wrap', function() {
+		$(this).parents('.js-block-item').remove();
+	});
+
+	$('.js-download-json').on('click', function() {
+		downloadJson(backupData);
+	});
+
 	$(document).on('click', '.js-save', function () {
 		console.log('saved');
-		downloadJson(backupData);
 		let data = generateData();
-		
 
 		console.log(data);
 		$.post(window.location.href, {
@@ -58,7 +69,9 @@
 
 	$(document).on('click', '.js-cancel', function () {
 		$('.js-wrap-edit').remove();
-		$(divProcessing).show();
+		$('.js-edit').show();
+		$('.js-insert').hide();
+		$('.js-profile_url').hide();
 		divProcessing = false;
 	});
 
@@ -71,6 +84,19 @@
 		dlAnchorElem.click();
 	}
 
+	$('.js-insert').on('click', function() {
+		let v = $(this).parent().find('.js-block-item:last').clone();
+
+		$(v).find('.js-edit').each((idx, e) => {
+			console.log(idx, e);
+			let newKey = (+new Date());
+			$(e).attr('data-id', newKey);
+			$(e).parent().find('.js-editing').attr('data-target', newKey);
+			console.log('aaa', $(e).parent().find('.js-editing'))
+		})
+		$(v).insertBefore(this);
+	});
+
 
 	function generateData(isSync = true) {
 		let data = {};
@@ -80,6 +106,7 @@
 			let t = $(`span[data-id=${oid}]`);
 			if (isSync) {
 				$('.js-wrap-edit').remove();
+				$('.js-insert').hide();
 				$(t).html(v);
 				$(t).show();
 			}

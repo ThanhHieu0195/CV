@@ -164,13 +164,24 @@ h3.title-line:after{
 
 @media print { * { color: $fff; background: transparent; }}
 
-.text-center {
-       position: fixed;
-    right: 50%;
+.text-fix-top {
+    position: fixed;
     z-index: 10000000000000000000000000000;
     transform: translateX(50%);
     background: #adadad99;
     padding: 10px 20px;
+    bottom: 20px;
+    right: 50%;
+}
+
+.text-fix-bottom {
+    position: fixed;
+    z-index: 10000000000000000000000000000;
+    transform: translateX(50%);
+    background: #adadad99;
+    padding: 10px 20px;
+    left: 20px;
+    bottom: 20px;
 }
 
 .c-btn {
@@ -196,4 +207,27 @@ h3.title-line:after{
     text-aligh: left;
     width: 100%;
     max-width: 500px;
+}
+
+.js-insert {
+    display: none;
+    cursor: pointer;
+    background: #929292;
+    padding: 5px 5px;
+    color: white;
+}
+
+.js-remove-wrap {
+        cursor: pointer;
+    background: #929292;
+    padding: 3px 12px;
+    color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+        position: absolute;
+    top: -30px;
+    right: -35px;
+}
+.js-wrap-edit {
+    position: relative;
 }

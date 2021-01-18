@@ -34,15 +34,15 @@
                     $numItem = count($data['works']['position']);
                     for($i=0; $i < $numItem; $i++):
                     ?>
-                <div class="wrap-block">
+                <div class="wrap-block js-block-item">
                     <h4>
                         <div class="row">
                             <div class="col-md-8">
-                                <i style="border-bottom: 1px solid #91c190;">
+                                <div style="border-bottom: 1px solid #91c190;">
                                       <span class="js-edit" data-id="<?= uniqid() ?>" data-name="works[position][]">
                                         <?= $works['position'][$i] ?>
                                     </span>          
-                                </i>
+                                </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="text-right" style="font-size: 12px"><strong>
@@ -54,14 +54,17 @@
                             </div>
                         </div>
                     </h4>
-                    <span class="js-edit" data-type="textarea" data-id="<?= uniqid() ?>" data-name="works[content][]">
-                        <?= $works['content'][$i]     ?>
-                    </span>     
+                    <div class="content">
+                          <span class="js-edit" data-type="textarea" data-id="<?= uniqid() ?>" data-name="works[content][]">
+                            <?= $works['content'][$i]     ?>
+                        </span>     
+                    </div>
 
                 </div>
                 <br>
                 <?php endfor;
                 ?>
+                <a class="js-insert">Insert</a>
             </div>
             <div class="col-md-3">
                 <div class="text-right"><strong>08/2017 - 2021</strong></div>
