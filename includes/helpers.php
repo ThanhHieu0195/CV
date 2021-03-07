@@ -41,7 +41,7 @@ class MongoClient {
 	}
 }
 if (empty($_GET['user'])) {
-	echo json_encode(['Error' => 404]);
+	echo readfile('./nginx.html');
 	exit(200);
 }
 $userId = $_GET['user'];
@@ -78,7 +78,7 @@ if (!empty($_GET['action']) && $_GET['action'] == 'pdf') {
 	    $client->setPageWidth("20in");
 	    $client->setPageHeight("-1");
     	$client->setNoMargins(true);
-	    $client->convertUrlToFile('http://157.230.32.185/qwertyCV/?user='.$userId, $path);
+	    $client->convertUrlToFile('http://karrot.cf/?user='.$userId, $path);
 
 	    header('Content-type: application/pdf');
 		header('Content-Disposition: inline; filename="' . $filename . '"');
