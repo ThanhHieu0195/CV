@@ -80,6 +80,7 @@ if (empty($_GET['user'])) {
 	exit(200);
 }
 $userId = $_GET['user'];
+$lang = !empty($_GET['lang']) ? $_GET['lang'] : 'en';
 $client = new MongoClient();
 $user = $client->getUser($userId);
 $data = (array)($user)->data;
@@ -113,7 +114,7 @@ if (!empty($_GET['action']) && $_GET['action'] == 'pdf') {
 	    $client->setPageWidth("20in");
 	    $client->setPageHeight("-1");
     	$client->setNoMargins(true);
-	    $client->convertUrlToFile('http://karrot.cf/?user='.$userId, $path);
+	    $client->convertUrlToFile('http://karrot.cf/?user='.$userId . '&lang=' . $lang , $path);
 
 	    header('Content-type: application/pdf');
 		header('Content-Disposition: inline; filename="' . $filename . '"');
