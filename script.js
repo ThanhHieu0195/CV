@@ -35,6 +35,7 @@
 			</div>`);
 			$('.js-insert').show();
 			backupData = generateData(false);
+			console.log('backupData', backupData)
 			divProcessing = true;
 		}
 	}
@@ -43,7 +44,8 @@
 		$(this).parents('.js-block-item').remove();
 	});
 
-	$('.js-download-json').on('click', function() {
+	$(document).on('click', '.js-download-json', function() {
+		console.log('Clicking ... download')
 		downloadJson(backupData);
 	});
 
@@ -78,6 +80,7 @@
 	function downloadJson(jsonData) {
 		let code = $('#code').val();
 		var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(jsonData));
+		console.log(dataStr);
 		var dlAnchorElem = document.getElementById('downloadAnchorElem');
 		dlAnchorElem.setAttribute("href", dataStr);
 		dlAnchorElem.setAttribute("download", `${code}-${(new Date()).toISOString()}.json`);

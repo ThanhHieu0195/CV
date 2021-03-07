@@ -9,6 +9,41 @@ function get_component($name, $data) {
     include 'components/' . $language . '/' . $name . '.php';
 }
 
+function get_message($text, $is_echo=true) {
+	$arr = [
+		'detail.COMPANY' => [
+			'Grab Company Limited', 'Công Ty TNHH Grab'
+		],
+		'detail.OBJECTIVE' => [
+			'Objective', 'Mục tiêu'
+		],
+		'detail.SUMMARY'=> [
+			'SUMMARY', 'Trình độ học vấn'
+		],
+		'detail.WORK_EXPERENCE' => [
+			'Work Experience', 'Kinh Nghiệm Làm Việc' 
+		],
+		'profile.SKILLS' => [
+			'SKILLS', 'Kỹ năng chính' 
+		],
+		'profile.INTERESTS' => [
+			'NTERESTS', 'Sở thích'
+		]
+	];
+	$idx = 0;
+
+	if (!empty($_GET['lang'])) {
+		if ($_GET['lang'] === 'vn') {
+			$idx = 1;
+		}
+	}
+
+	// if ($is_echo) {
+	// 	echo $arr[$text][$idx];
+	// } 
+	return $arr[$text][$idx];
+}
+
 class MongoClient {
 	function __construct() {
 		$this->client = new MongoDB\Client(

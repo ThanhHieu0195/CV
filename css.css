@@ -2,7 +2,7 @@
 body {
     background-image: url(https://ak3.picdn.net/shutterstock/videos/5001257/thumb/4.jpg);
     background-size: cover;
-    line-height: 40px !important;
+    line-height: 20px;
 }
 .container {
     color: white;

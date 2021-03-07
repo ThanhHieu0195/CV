@@ -44,7 +44,7 @@
         </div>
         <?php foreach ($data['basic_info']['details'] as $key => $arr): ?>
          <div class="session">
-            <h3 class="title-line"><?= $key ?></h3>
+            <h3 class="title-line"><?= get_message('profile.' . strtoupper($key)) ?></h3>
             <ul>
                 <?php foreach($arr as $text): ?>
                 <li class="item-skill js-block-item">
