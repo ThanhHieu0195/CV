@@ -18,7 +18,7 @@ function get_message($text, $is_echo=true) {
 			'Objective', 'Mục tiêu'
 		],
 		'detail.SUMMARY'=> [
-			'SUMMARY', 'Trình độ học vấn'
+			'Education', 'Trình độ học vấn'
 		],
 		'detail.WORK_EXPERENCE' => [
 			'Work Experience', 'Kinh Nghiệm Làm Việc' 
@@ -27,7 +27,7 @@ function get_message($text, $is_echo=true) {
 			'SKILLS', 'Kỹ năng chính' 
 		],
 		'profile.INTERESTS' => [
-			'NTERESTS', 'Sở thích'
+			'INTERESTS', 'Sở thích'
 		]
 	];
 	$idx = 0;
