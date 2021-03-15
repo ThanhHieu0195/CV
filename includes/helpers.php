@@ -114,7 +114,14 @@ if (!empty($_GET['action']) && $_GET['action'] == 'pdf') {
 	    $client->setPageWidth("20in");
 	    $client->setPageHeight("-1");
     	$client->setNoMargins(true);
-	    $client->convertUrlToFile('http://karrot.cf/?user='.$userId . '&lang=' . $lang , $path);
+
+    	$url = 'http://karrot.cf/?user='.$userId . '&lang=' . $lang;
+    	
+    	if (!empty($_GET['photo'])) {
+    		$url .= '&photo=1';
+    	}
+
+	    $client->convertUrlToFile($url , $path);
 
 	    header('Content-type: application/pdf');
 		header('Content-Disposition: inline; filename="' . $filename . '"');

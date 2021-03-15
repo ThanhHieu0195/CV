@@ -32,6 +32,27 @@ include './includes/helpers.php';
        </div>
    </div>
 </div>
+
+<?php 
+if ($_GET['photo']) {
+?>
+<style>
+  h3, span {
+      color: black !important;
+  }
+
+  .js-profile-click {
+      display: none;
+  }
+
+  .infomation, .profile, .profile .session:first-child, .header {
+      background-color: white !important;
+  }
+</style>
+<?php
+}
+
+?>
 <a id="downloadAnchorElem" href="" style="display: none"></a>
 <input type="hidden" value="<?= $_GET['user'] ?>" id="code"/>
 </body>
