@@ -111,7 +111,7 @@ if (!empty($_GET['action']) && $_GET['action'] == 'pdf') {
 		$key = 'ce544b6ea52a5621fb9d55f8b542d14d';
 		if (!empty($_GET['active']) && $_GET['active']) {
 			$acc = 'drinkchaser';
-			$key = '19b34819fcda1395ba7b5aece5b15733';
+			$key = 'b249f9c1a52df3f684bd1f0b427314b6';
 		}
 	    $client = new \Pdfcrowd\HtmlToPdfClient($acc, $key);
 	    $client->setPageWidth("20in");
