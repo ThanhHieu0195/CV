@@ -10,7 +10,7 @@
         </span>
         </h4>
     </div>
-
+    <?php if( !empty($data['summary']) ): ?>
     <div class="session">
         <h3 class="title-line">
             <i class="fa fa-list" aria-hidden="true" style="padding: 10px 10px"></i>
@@ -22,12 +22,13 @@
         </span>
         </h4>
     </div>
+    <?php endif; ?>
 
     <div class="session">
         <h3 class="title-line">
             <i class="fa fa-users" aria-hidden="true"></i>
             <?= get_message('detail.WORK_EXPERENCE') ?>
-        </h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </h3>
 
         <div class="row">
             <div class="col-md-12">
@@ -44,7 +45,7 @@
                         <div class="block-content" style="display: flex;flex-direction: row;">
                             <div class="block-left" style="width: 80%">
                                 <div>
-                                      <span style="border-bottom: 1px solid #91c190;" class="js-edit" data-id="<?= uniqid() ?>" data-name="works[position][]">
+                                      <span style="border-bottom: 1px solid #91c190;font-weight: bold;" class="js-edit" data-id="<?= uniqid() ?>" data-name="works[position][]">
                                         <?= $works['position'][$i] ?>
                                     </span>          
                                 </div>
@@ -81,17 +82,3 @@
         To succeed in life, you need two things: ignorance and confidence.<br><span class="author">Mark Twain</span>
     </p>
 </div>
-
-<style>
-    .item-title {
-        font-weight: bold;
-        font-size: 20px;
-        padding-bottom: 5px;
-    }
-
-    .wrap-block {
-        padding-left: 20px;
-        font-size: 16px;
-        border-left: 1px solid rgba(255, 255, 255, 0.52);
-    }
-</style>

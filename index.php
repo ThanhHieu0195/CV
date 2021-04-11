@@ -34,7 +34,7 @@ include './includes/helpers.php';
 </div>
 
 <?php 
-if ($_GET['photo']) {
+if (!empty($_GET['photo'])) {
 ?>
 <style>
   h3, span {

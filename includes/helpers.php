@@ -28,6 +28,9 @@ function get_message($text, $is_echo=true) {
 		],
 		'profile.INTERESTS' => [
 			'INTERESTS', 'Sở thích'
+		],
+		'profile.EDUCATION' => [
+			'EDUCATION', 'EDUCATION'
 		]
 	];
 	$idx = 0;
